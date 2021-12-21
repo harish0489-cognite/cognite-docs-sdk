@@ -26,13 +26,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
-        },
-        theme: {
+          theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
@@ -139,7 +133,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Cognite - All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cognite -- All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,

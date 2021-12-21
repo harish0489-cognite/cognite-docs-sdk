@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cognite',
-  tagline: 'Dinosaurs are cool',
+  title: 'Cognite - JS SDK',
+  tagline: 'Some Description Here explaining about SDK',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -1,15 +1,17 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-<!-- Follow our development quickstart to get up and running with Cognite Data Fusion in a few simple steps. And don't worry if you don't have your own project and data yet. You can use an API key and data from the Open Industrial Data project (opens new window)- a live industrial data stream - to start learning. -->
+# Getting Started
+
+Follow our development quickstart to get up and running with Cognite Data Fusion in a few simple steps. And don't worry if you don't have your own project and data yet. You can use an API key and data from the Open Industrial Data project (opens new window)- a live industrial data stream - to start learning.
 
 
 <!-- # Cognite SDK Introduction -->
 
 <!-- Let's discover **Docusaurus in less than 5 minutes**. -->
 
-### Getting Started
+### Installation
 
 <!-- Get started by **creating a new site**. -->
 <!-- 

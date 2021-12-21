@@ -16,11 +16,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Written in TS',
+    title: 'Written in Next JS',
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-       Wirten in Native TS
+       Wirten in Native Next JS so you dont need to worry about Code Splitting. 
       </>
     ),
   },

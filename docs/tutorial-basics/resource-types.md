@@ -19,7 +19,7 @@ Learn More on **[Assets](https://docs.cognite.com/dev/concepts/resource_types/as
 
 The **time series** resource type stores a series of data points in time order.
 
-Learn More on **[Assets](https://docs.cognite.com/dev/concepts/resource_types/timeseries.html)**.
+Learn More on **[Time Series](https://docs.cognite.com/dev/concepts/resource_types/timeseries.html)**.
 
 
 :::
@@ -28,7 +28,7 @@ Learn More on **[Assets](https://docs.cognite.com/dev/concepts/resource_types/ti
 
 The **events** resource type stores information that happen over a **period of time** and have a **start time** and an **end time** and can be related to **multiple assets.**
 
-Learn More on **[Assets](https://docs.cognite.com/dev/concepts/resource_types/events.html)**.
+Learn More on **[Events](https://docs.cognite.com/dev/concepts/resource_types/events.html)**.
 
 
 :::
@@ -37,6 +37,6 @@ Learn More on **[Assets](https://docs.cognite.com/dev/concepts/resource_types/ev
 
 The **3D models** resource type stores files that provide visual and geometrical data and context to assets.
 
-Learn More on **[Assets](https://docs.cognite.com/dev/concepts/resource_types/3dmodels.html)**.
+Learn More on **[3D Models](https://docs.cognite.com/dev/concepts/resource_types/3dmodels.html)**.
 
 

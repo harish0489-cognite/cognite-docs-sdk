@@ -4,17 +4,17 @@ sidebar_position: 4
 
 # Time Series
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Fetch results based on Start Time and End Time.
 
 ## Code Blocks
 
 
 ```tsx title="src/components/assets.tsx"
- async function searchAsset() {
+ async function fetchResult() {
    const models3D = await client.events.list({ 
       filter: { 
-        startTime: { min: new Date('1 jan 2018') }, 
-        endTime: { max: new Date('1 jan 2019') } 
+        startTime: { min: new Date('1 jan 2021') }, 
+        endTime: { max: new Date('1 dec 2021') } 
         } }
     );
    

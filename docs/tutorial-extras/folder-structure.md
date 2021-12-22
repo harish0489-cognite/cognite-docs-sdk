@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Setup
+# Folder Structure
 
-Breakdown of each components and the features explained. 
+The SDK is divided into smaller items as described below.
 
 ## Folder Structure
 

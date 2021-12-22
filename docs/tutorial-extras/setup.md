@@ -4,35 +4,63 @@ sidebar_position: 1
 
 # Setup
 
+Breakdown of each components and the features explained. 
+
+## Folder Structure
+
+```
+├── src
+│   ├── components
+│   │   ├── atoms
+│   │   ├── molecules
+│   │   ├── organisms
+│   │   ├── templates
+│   ├── contexts
+│   │   ├── AuthContext
+│   │   ├── FilterContext
+│   ├── pages
+│   │   ├── all pages
+│   ├── styles
+│   │   ├── global styles
+├── public
+│   ├── css
+│   │   ├── **/*.css
+│   ├── images
+│   ├── js
+│   ├── index.html
+├── dist (or build
+├── node_modules
+├── package.json
+├── package-lock.json 
+└── .gitignore
+```
+
+# Setup
+
 Setting up with Context, Filter, Files information.
 
 
-## Code Blocks
+## Atom
 
-```tsx title="src/components/assets.tsx"
- async function searchAsset() {
-    const searchAssets = await client.assets.search({
-      search: {
-        query: filters.name,
-      }, limit: filters.limit,
-    });
+Buttons, Headers, Input Box, Logo, Menu Icons,
 
-    if (searchAssets !== undefined && typeof searchAssets === "object") {
-      let newAssets: any = [];
-      searchAssets.map((a: Asset, idx) => {
-        newAssets.push({
-          id: a.id,
-          name: a.name,
-          description: a.description,
-          created_at: {
-            date: moment(a.createdTime).format("DD/MM/YYYY"),
-            hour: moment(a.createdTime).format("HH:mm:ss"),
-          },
-        });
-      });
-      setAssets(newAssets);
-      console.log(newAssets);
-    }
-  }
-```
+
+## Molecule
+
+CogFilter and CogTable
+
+## Organisms
+
+Cog Side Menu
+
+## Template
+
+Cog Home Page
+Cog Content Page
+
+## Pages
+
+All Pages Here
+
+
 

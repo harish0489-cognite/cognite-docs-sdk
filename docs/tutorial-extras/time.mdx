@@ -1,0 +1,22 @@
+---
+sidebar_position: 4
+---
+
+# Time Series
+
+Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+
+## Code Blocks
+
+
+```tsx title="src/components/assets.tsx"
+ async function searchAsset() {
+   const models3D = await client.events.list({ 
+      filter: { 
+        startTime: { min: new Date('1 jan 2018') }, 
+        endTime: { max: new Date('1 jan 2019') } 
+        } }
+    );
+   
+```
+

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Get Support
 
-**Write to us at to** **[Get Support](https://docusaurus.new)**.
+**Write to us at to** **[Get Support](https://developer.cognite.ai/)**.
  
